@@ -41,24 +41,24 @@
 */
 
 module.exports = {
-  photo-carousel-service: {
+  service1: {
     api: '/photo-carousel/:id',
     url: 'http://localhost:3001',
     bundle: 'bundle.js',
   },
-  reservations-service: {
-    api: '/api/listings/:id',
+  service2: {
+  api: '/listings/:id',
     url: 'http://localhost:3002',
-    bundle: 'app.js',
-  },
-  reviews-service: {
-    api: '/listings/:id/reviews',
-    url: 'http://localhost:3003',
     bundle: 'bundle.js',
   },
-  places-to-stay-service: {
+  service3: {
+    api: '/review-listings/:id/reviews',
+    url: 'http://3.134.82.244:3003/',
+    bundle: '/:id/bundle.js',
+  },
+  service4: {
     api: 'FIX_ME',
     url: 'http://localhost:3004',
-    bundle: 'app.js',
+    bundle: 'bundle.js',
   },
 };
