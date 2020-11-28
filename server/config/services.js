@@ -43,7 +43,7 @@
 module.exports = {
   service1: {
     api: '/photo-carousel/:id',
-    url: 'http://localhost:3001',
+    url: 'http://204.236.160.152:3001',
     bundle: 'bundle.js',
   },
   service2: {
@@ -57,7 +57,7 @@ module.exports = {
     bundle: '/:id/bundle.js',
   },
   service4: {
-    api: 'FIX_ME',
+    api: 'http://3.101.85.97:3004/',
     url: 'http://localhost:3004',
     bundle: 'bundle.js',
   },
