@@ -52,8 +52,8 @@ module.exports = {
     bundle: '/listings/:id/build/bundle.js',
   },
   service3: {
-    api: '/review-listings/:id/reviews',
-    url: 'http://3.134.82.244:3003/',
+    api: '/listings/:id/reviews',
+    url: 'http://3.237.236.233:3003/',
     bundle: '/:id/bundle.js',
   },
   service4: {
